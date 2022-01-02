@@ -1,0 +1,323 @@
+{
+  "mod_elements": [
+    {
+      "name": "WolfCostume",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_costume",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Cosplay/AnimalCostume"
+    },
+    {
+      "name": "FoxCostume",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fox_costume",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Cosplay/AnimalCostume"
+    },
+    {
+      "name": "WraithStealth",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraith_stealth",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GhostHunting/Wraith"
+    },
+    {
+      "name": "Wraith",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraith",
+      "path": "~/GhostHunting/Wraith"
+    },
+    {
+      "name": "WraithAttack",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraith_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GhostHunting/Wraith/WraithAttack"
+    },
+    {
+      "name": "WraithBreath",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraith_breath",
+      "path": "~/GhostHunting/Wraith/WraithAttack"
+    },
+    {
+      "name": "WraithBreathPlayerCollides",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraith_breath_player_collides",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GhostHunting/Wraith/WraithAttack"
+    },
+    {
+      "name": "WraithBreathDissipate",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraith_breath_dissipate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GhostHunting/Wraith/WraithAttack"
+    },
+    {
+      "name": "WraithBreathEffect",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraith_breath_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GhostHunting/Wraith/WraithAttack"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "wraith.idle",
+      "files": [
+        "idle1",
+        "idle2",
+        "idle3",
+        "idle4",
+        "idle5",
+        "idle6"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "wraith.fly",
+      "files": [
+        "fly1",
+        "fly2",
+        "fly3",
+        "fly4",
+        "fly5"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "wraith.hurt",
+      "files": [
+        "hurt1",
+        "hurt2",
+        "hurt3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "wraith.death",
+      "files": [
+        "death1",
+        "death2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "wraith.fire",
+      "files": [
+        "fire"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.hobbyist.wolf_costume_chestplate": "Wolf Costume Body",
+      "item.hobbyist.wolf_costume_leggings": "Wolf Costume Legs",
+      "item.hobbyist.fox_costume_helmet": "Fox Costume Head",
+      "item.hobbyist.wraith_breath_spawn_egg": "Wraith Breath Spawn Egg",
+      "item.hobbyist.wolf_costume_helmet": "Wolf Costume Head",
+      "entity.hobbyist.wraith": "Wraith",
+      "item.hobbyist.fox_costume_chestplate": "Fox Costume Body",
+      "subtitles.wraith.fly": "",
+      "item.hobbyist.fox_costume_leggings": "Fox Costume Legs",
+      "item.hobbyist.wraith_spawn_egg": "Wraith Spawn Egg",
+      "subtitles.wraith.fire": "",
+      "subtitles.wraith.idle": "",
+      "subtitles.wraith.death": "",
+      "entity.hobbyist.wraith_breath": "Wraith Breath",
+      "item.hobbyist.fox_costume_boots": "Fox Costume Feet",
+      "subtitles.wraith.hurt": "",
+      "item.hobbyist.wolf_costume_boots": "Wolf Costume Feet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Cosplay",
+        "children": [
+          {
+            "name": "AnimalCostume",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "GhostHunting",
+        "children": [
+          {
+            "name": "Wraith",
+            "children": [
+              {
+                "name": "WraithAttack",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "hobbyist",
+    "modName": "Hobbyist",
+    "version": "1.0.0",
+    "author": "siris, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.hobbyist",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}
