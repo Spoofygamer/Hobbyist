@@ -113,7 +113,7 @@
       "name": "WraithBreath",
       "type": "livingentity",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "wraith_breath",
       "path": "~/GhostHunting/Wraith/WraithAttack"
@@ -148,35 +148,6 @@
             "name": "entity",
             "type": "entity"
           },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/GhostHunting/Wraith/WraithAttack"
-    },
-    {
-      "name": "WraithBreathEffect",
-      "type": "procedure",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wraith_breath_effect",
-      "metadata": {
-        "dependencies": [
           {
             "name": "x",
             "type": "number"
